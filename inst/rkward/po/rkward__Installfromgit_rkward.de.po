@@ -1,0 +1,212 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# m.eik michalke <m@reaktanz.de>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://mail.kde.org/mailman/listinfo/kde-i18n-doc\n"
+"POT-Creation-Date: 2015-12-05 21:37+0100\n"
+"PO-Revision-Date: 2015-12-05 21:37+0100\n"
+"Last-Translator: m.eik michalke <m@reaktanz.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "m.eik michalke"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "meik.michalke@hhu.de"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:18
+#. i18n: ectx: <about name="...">
+msgid "rk.gitInstall"
+msgstr "rk.gitInstall"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:18
+#. i18n: ectx: <about shortinfo="...">
+msgid ""
+"RKWard GUI to install R packges directly from git or subversion repositories"
+msgstr ""
+"RKWard GUI, um R-Pakete direkt aus einem git- oder Subversion-Repository zu "
+"installieren"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:27
+#. i18n: ectx: <about> <author given="...">
+msgctxt "Author name"
+msgid "Meik"
+msgstr "Meik"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:27
+#. i18n: ectx: <about> <author family="...">
+msgctxt "Author name"
+msgid "Michalke"
+msgstr "Michalke"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:41
+#. i18n: ectx: <components> <component label="...">
+msgid "Install from git"
+msgstr "Installation via git"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.js:61
+#. i18n: ectx: (Loaded from Install from git/svn)
+msgid "Install from git results"
+msgstr "Ergbenisse der Installation via git"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:13
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Package source")
+msgid "Set the location where the package resides that you want to install."
+msgstr ""
+"Definieren Sie den Ort, an dem das Paket zu finden ist, das Sie installieren "
+"möchten."
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:17
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Git user name")
+msgid "Specify the user name (GitHub and Bitbucket only)."
+msgstr "Geben Sie den Benutzernamen an (nur GitHub oder Bitbucket)."
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:20
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Repository")
+msgid "Give the repository name (GitHub and Bitbucket only)."
+msgstr "Geben Sie den Namen des Repository an (nur GitHub oder Bitbucket)."
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:23
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "URL to repository")
+msgid "Give the full URL to the repository (generic git and svn only)."
+msgstr ""
+"Geben Sie den vollen URL zum Repository an (nur generisches git und svn)."
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:26
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Commit/tag/branch")
+msgid ""
+"If you want a certain commit, tag or branch for installation, define that "
+"here."
+msgstr ""
+"Wenn Sie einen bestimmten Commit, Tag oder Branch intallieren möchten, "
+"definieren Sie diesenhier"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:29
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Subdirectory")
+msgid ""
+"If you want to install from a subdirectory of the repository, define that "
+"here."
+msgstr ""
+"Wenn Sie aus einen bestimmten Unterordner des Repository intallieren "
+"möchten, definieren Sie diesenhier"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:33
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Personal access token (PAT)")
+msgid ""
+"To install from a private repository, set your personal access token (PAT, "
+"GitHub only)."
+msgstr ""
+"Um von einem privaten Repository zu installieren, geben Sie Ihren "
+"persönlichen Zugangs-Token an (PAT, nur GitHub)"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:36
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "User")
+msgid ""
+"To install from a private repository, set the user name (Bitbucket only)."
+msgstr ""
+"Um von einem privaten Repository zu installieren, geben Sie Ihren "
+"Benutzernamen an (nur Bitbucket)"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:39
+#. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Password")
+msgid ""
+"To install from a private repository, set the password (Bitbucket only)."
+msgstr ""
+"Um von einem privaten Repository zu installieren, geben Sie Ihr Passwort an "
+"(nur Bitbucket)"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:24
+#. i18n: ectx: (Install from git/svn) <dialog label="...">
+msgid "Install from git/svn"
+msgstr "Installation via git/svn"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:26
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="...">
+msgid "Package source"
+msgstr "Paketquelle"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:27
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
+msgid "GitHub"
+msgstr "GitHub"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:28
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
+msgid "Bitbucket"
+msgstr "Bitbucket"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:29
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
+msgid "git (generic)"
+msgstr "git (generisch)"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:30
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
+msgid "subversion (generic)"
+msgstr "Subversion (generisch)"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:32
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="...">
+msgid "Package reporitory"
+msgstr "Paketrepository"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:34
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Package reporitory"> <input label="...">
+msgid "Git user name"
+msgstr "Git-Benutzername"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:35
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Package reporitory"> <input label="...">
+msgid "Repository"
+msgstr "Repository"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:37
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Package reporitory"> <input label="...">
+msgid "URL to repository"
+msgstr "URL zum Repository"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:39
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <input label="...">
+msgid "Commit/tag/branch"
+msgstr "Commit/Tag/Branch"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:40
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <input label="...">
+msgid "Subdirectory"
+msgstr "Unterordner"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:41
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="...">
+msgid "Private repository"
+msgstr "Privates Repository"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:42
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Private repository"> <input label="...">
+msgid "Personal access token (PAT)"
+msgstr "Persönlicher Zugangs-Token (PAT)"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:44
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Private repository"> <input label="...">
+msgid "User"
+msgstr "Benutzer"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:45
+#. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Private repository"> <input label="...">
+msgid "Password"
+msgstr "Passwort"
+
+#. i18n: file: /tmp/RtmppMJZXX/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:50
+#. i18n: ectx: <hierarchy> <menu label="...">
+msgid "Settings"
+msgstr "Einstellungen"

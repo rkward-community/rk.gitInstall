@@ -1,0 +1,57 @@
+<!DOCTYPE rkpluginmap >
+<document 
+  base_prefix=""
+  namespace="Installfromgit"
+  id="Installfromgit_rkward"
+  po_id="Installfromgit_rkward"
+  priority="medium"
+>
+  <!-- 
+    this code was generated using the rkwarddev package.
+    perhaps don't make changes here, but in the rkwarddev script instead!
+    
+    look for a file called: $SRC/inst/rkward/rkwarddev_rk.gitInstall_plugin_script.R 
+  -->
+  <dependencies rkward_min_version="&gt;= 0.6.0">
+    <package name="devtools" />
+  </dependencies>
+  <about 
+    name="rk.gitInstall"
+    shortinfo="RKWard GUI to install R packges directly from git or subversion repositories"
+    longinfo="RKWard GUI to install R packges directly from git or subversion repositories"
+    version="0.01-0"
+    releasedate="2015-12-05"
+    url="https://rkward.kde.org"
+    license="GPL (&gt;= 3)"
+  >
+    <author 
+      given="Meik"
+      family="Michalke"
+      email="meik.michalke@hhu.de"
+      role="aut, cre"
+     />
+  </about>
+  <require 
+    map="rkward::menu"
+   />
+  <require 
+    map="rkward::embedded"
+   />
+  <components>
+    <component 
+      id="cmp_InstallfromgitInstllfrmgt"
+      label="Install from git"
+      type="standard"
+      file="plugins/Installfromgit.xml"
+    >
+    </component>
+  </components>
+  <hierarchy>
+    <menu 
+      id="settings"
+      label="Settings"
+    >
+      <entry component="cmp_InstallfromgitInstllfrmgt" />
+    </menu>
+  </hierarchy>
+</document>
