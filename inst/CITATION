@@ -1,0 +1,14 @@
+bibentry("Manual",
+    title="rk.gitInstall: RKWard GUI to install R packges directly from git or subversion repositories",
+    author="Meik Michalke",
+    year="2015",
+    note="(Version 0.01-0)",
+    url="https://rkward.kde.org",
+
+    textVersion =
+    paste("Michalke, M. (2015). ",
+        "rk.gitInstall: RKWard GUI to install R packges directly from git or subversion repositories (Version 0.01-0). ",
+        "Available from https://rkward.kde.org",
+        sep=""),
+
+    mheader = "To cite rk.gitInstall in publications use:")
