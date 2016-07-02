@@ -1,5 +1,7 @@
 # rk.gitInstall
 
+[![Flattr this git repo](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=tfry&url=https://github.com/rkward-community/rk.gitInstall&title=rk.gitInstall&language=en_GB&tags=github&category=software)
+
 This R package provides a GUI to install R packges directly from git or subversion repositories.
 
 ![rk.gitInstall main tab](/inst/screenshots/main_tab.png?raw=true "rk.gitInstall main tab")
