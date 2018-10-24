@@ -15,16 +15,20 @@
     <connect governor="lgcRequireURL.not" client="row_inptlbGURR.visible" />
     <connect governor="lgcRequireURL" client="fullURL.visible" />
     <convert id="lgcIsGithub" sources="packageSource.string" mode="equals" standard="github" />
+    <convert id="lgcIsGitlab" sources="packageSource.string" mode="equals" standard="gitlab" />
+    <convert id="lgcIsGithubOrGitlab" sources="lgcIsGithub;lgcIsGitlab" mode="or" />
     <convert id="lgcIsBitbucket" sources="packageSource.string" mode="equals" standard="bitbucket" />
-    <connect governor="lgcIsGithub" client="inp_PrsnlPAT.enabled" />
+    <convert id="lgcEnableAuthToken" sources="frm_Prvtrpst.checked;lgcIsGithubOrGitlab" mode="and" />
+    <connect governor="lgcEnableAuthToken" client="inp_PrsnlPAT.enabled" />
     <connect governor="lgcIsBitbucket" client="inp_User.enabled" />
     <connect governor="lgcIsBitbucket" client="inp_Password.enabled" />
     <connect governor="lgcRequireURL.not" client="frm_Prvtrpst.enabled" />
   </logic>
   <dialog label="Install from git/svn">
-    <column id="clm_dSPGHBPFGU">
+    <column id="clm_dSPGHGLBPF">
       <dropdown id="packageSource" label="Package source">
         <option label="GitHub" value="github" checked="true" />
+        <option label="GitLab" value="gitlab" />
         <option label="Bitbucket" value="bitbucket" />
         <option label="git (generic)" value="git" />
         <option label="subversion (generic)" value="svn" />

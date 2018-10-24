@@ -12,15 +12,15 @@
     
     look for a file called: $SRC/inst/rkward/rkwarddev_rk.gitInstall_plugin_script.R 
   -->
-  <dependencies rkward_min_version="&gt;= 0.6.0">
+  <dependencies rkward_min_version="0.6.0">
     <package name="devtools" />
   </dependencies>
   <about 
     name="rk.gitInstall"
     shortinfo="RKWard GUI to install R packges directly from git or subversion repositories"
     longinfo="RKWard GUI to install R packges directly from git or subversion repositories"
-    version="0.01-0"
-    releasedate="2015-12-05"
+    version="0.01-1"
+    releasedate="2018-10-24"
     url="https://rkward.kde.org"
     license="GPL (&gt;= 3)"
   >

@@ -15,10 +15,10 @@
     </setting>
     <caption id="repoFrame" />
     <setting id="gitUser">
-      Specify the user name (GitHub and Bitbucket only).
+      Specify the user name (GitHub, GitLab and Bitbucket only).
     </setting>
     <setting id="gitRepo">
-      Give the repository name (GitHub and Bitbucket only).
+      Give the repository name (GitHub, GitLab and Bitbucket only).
     </setting>
     <setting id="fullURL">
       Give the full URL to the repository (generic git and svn only).
@@ -31,7 +31,7 @@
     </setting>
     <caption id="frm_Prvtrpst" />
     <setting id="inp_PrsnlPAT">
-      To install from a private repository, set your personal access token (PAT, GitHub only).
+      To install from a private repository, set your personal access token (PAT, GitHub and GitLab only).
     </setting>
     <setting id="inp_User">
       To install from a private repository, set the user name (Bitbucket only).

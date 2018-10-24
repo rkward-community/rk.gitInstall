@@ -1,8 +1,13 @@
 ChangeLog for package rk.gitInstall
 
-changes in version 0.01-1 (2015-12-18)
+changes in version 0.01-1 (2018-10-24)
 unreleased:
   - this release is under development
+added:
+  - new support for GitLab
+changed:
+  - switched to username/repo[/subdir][@ref] syntax in the code
+    generated for GitHub and GitLab
 
 changes in version 0.01-0 (2015-12-18)
 changed:

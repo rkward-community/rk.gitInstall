@@ -5,12 +5,12 @@
 
 
 
-function preprocess(){
+function preprocess(is_preview){
   // add requirements etc. here
   echo("require(devtools)\n");
 }
 
-function calculate(){
+function calculate(is_preview){
   // read in variables from dialog
   var packageSource = getString("packageSource");
   var gitUser = getString("gitUser");
@@ -26,14 +26,20 @@ function calculate(){
   // the R code to be evaluated
   var frmPrvtrpstChecked = getValue("frm_Prvtrpst.checked");
   echo("\tinstall_" + packageSource + "(\n");
-  if(packageSource == "github" || packageSource == "bitbucket") {
-    echo("\t\trepo=\"" + gitUser + "/" + gitRepo + "\"");  
-    if(inpCmmttgbr) {
-      echo(",\n\t\tref=\"" + inpCmmttgbr + "\"");  
+  if(packageSource == "github" || packageSource == "gitlab" || packageSource == "bitbucket") {
+    echo("\t\trepo=\"" + gitUser + "/" + gitRepo);  
+    if(inpSbdrctry) {
+      echo("/" + inpSbdrctry);  
     } else {}  
+    if(inpCmmttgbr) {
+      echo("@" + inpCmmttgbr);  
+    } else {}  
+    echo("\"");  
     if(frmPrvtrpstChecked) {
-      if(packageSource == "github" && inpPrsnlPAT) {
-        echo(",\n\t\tauth_token=\"" + inpPrsnlPAT + "\"");  
+      if(packageSource == "github" || packageSource == "gitlab") {
+        if(inpPrsnlPAT) {
+          echo(",\n\t\tauth_token=\"" + inpPrsnlPAT + "\"");  
+        } else {}  
       } else if(packageSource == "bitbucket") {
         if(inpUser) {
             echo(",\n\t\tauth_user=\"" + inpUser + "\"");  
@@ -49,17 +55,13 @@ function calculate(){
         echo(",\n\t\tbranch=\"" + inpCmmttgbr + "\"");  
       } else {}  
   } else {}
-  if(inpSbdrctry) {
-    echo(",\n\t\tsubdir=\"" + inpSbdrctry + "\"");  
-  } else {}
   echo("\n\t)");
   echo("\n");
 }
 
-function printout(){
+function printout(is_preview){
   // printout the results
   new Header(i18n("Install from git results")).print();
-echo("rk.print(\"\")\n");
 
 }
 
