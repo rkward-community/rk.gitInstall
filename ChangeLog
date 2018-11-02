@@ -1,13 +1,16 @@
 ChangeLog for package rk.gitInstall
 
-changes in version 0.01-1 (2018-10-24)
+changes in version 0.01-1 (2018-11-02)
 unreleased:
   - this release is under development
+fixed:
+  - the subfolder was ignored in generic git
 added:
   - new support for GitLab
 changed:
   - switched to username/repo[/subdir][@ref] syntax in the code
     generated for GitHub and GitLab
+  - generic git is the new default
 
 changes in version 0.01-0 (2015-12-18)
 changed:
