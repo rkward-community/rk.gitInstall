@@ -3,7 +3,7 @@ Type: Package
 Title: RKWard GUI to install R packges directly from git or subversion
         repositories
 Version: 0.01-1
-Date: 2018-10-24
+Date: 2018-11-02
 Author: Meik Michalke
 Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Depends: rkward (>= 0.6.0)

@@ -27,10 +27,10 @@
   <dialog label="Install from git/svn">
     <column id="clm_dSPGHGLBPF">
       <dropdown id="packageSource" label="Package source">
-        <option label="GitHub" value="github" checked="true" />
+        <option label="git (generic)" value="git" checked="true" />
+        <option label="GitHub" value="github" />
         <option label="GitLab" value="gitlab" />
         <option label="Bitbucket" value="bitbucket" />
-        <option label="git (generic)" value="git" />
         <option label="subversion (generic)" value="svn" />
       </dropdown>
       <frame label="Package reporitory" id="repoFrame">
