@@ -1,7 +1,6 @@
 Package: rk.gitInstall
 Type: Package
-Title: RKWard GUI to install R packges directly from git or subversion
-        repositories
+Title: RKWard GUI to install R packges directly from git or subversion repositories
 Version: 0.01-1
 Date: 2018-11-02
 Author: Meik Michalke
@@ -9,10 +8,10 @@ Maintainer: Meik Michalke <meik.michalke@hhu.de>
 Depends: rkward (>= 0.6.0)
 Suggests: devtools
 Enhances: rkward
-Description: RKWard GUI to install R packges directly from git or
-        subversion repositories
+Description: RKWard GUI to install R packges directly from git or subversion repositories
 License: GPL (>= 3)
 LazyLoad: yes
+Encoding: UTF-8
 URL: https://rkward.kde.org
-Authors@R: person(given="Meik", family="Michalke",
-        email="meik.michalke@hhu.de", role=c("aut", "cre"))
+Authors@R: person(given="Meik", family="Michalke", email="meik.michalke@hhu.de", role=c("aut", "cre"))
+RoxygenNote: 7.1.0
