@@ -1,5 +1,9 @@
 ChangeLog for package rk.gitInstall
 
+changes in version 0.01-2 (2020-06-25)
+unreleased:
+  - this release is under development
+
 changes in version 0.01-1 (2020-06-25)
 fixed:
   - the subfolder was ignored in generic git
