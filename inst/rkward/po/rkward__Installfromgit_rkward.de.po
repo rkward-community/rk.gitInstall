@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://mail.kde.org/mailman/listinfo/kde-i18n-doc\n"
-"POT-Creation-Date: 2022-05-03 14:35+0200\n"
+"POT-Creation-Date: 2022-05-03 15:55+0200\n"
 "PO-Revision-Date: 2018-10-24 20:59+0100\n"
 "Last-Translator: m.eik michalke <meik.michalke@c3s.cc>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -17,88 +17,88 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:1
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "m.eik michalke"
 
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:2
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "meik.michalke@hhu.de"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:18
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:18
 #. i18n: ectx: <about name="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:5
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:5
 msgid "rk.gitInstall"
 msgstr "rk.gitInstall"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:18
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:18
 #. i18n: ectx: <about shortinfo="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:8
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:8
 msgid ""
 "RKWard GUI to install R packges directly from git or subversion repositories"
 msgstr ""
 "RKWard GUI, um R-Pakete direkt aus einem git- oder Subversion-Repository zu "
 "installieren"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:27
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:27
 #. i18n: ectx: <about> <author given="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:11
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:11
 msgctxt "Author name"
 msgid "Meik"
 msgstr "Meik"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:27
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:27
 #. i18n: ectx: <about> <author family="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:14
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:14
 msgctxt "Author name"
 msgid "Michalke"
 msgstr "Michalke"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:41
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:41
 #. i18n: ectx: <components> <component label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:17
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:17
 msgid "Install from git"
 msgstr "Installation via git"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.js:67
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.js:67
 #. i18n: ectx: (Loaded from Install from git/svn)
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:20
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:20
 msgid "Install from git results"
 msgstr "Ergbenisse der Installation via git"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:15
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:15
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Package source")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:24
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:24
 msgid "Set the location where the package resides that you want to install."
 msgstr ""
 "Definieren Sie den Ort, an dem das Paket zu finden ist, das Sie installieren "
 "möchten."
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:19
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:19
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Git user name")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:27
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:27
 msgid "Specify the user name (GitHub, GitLab and Bitbucket only)."
 msgstr "Geben Sie den Benutzernamen an (nur GitHub, GitLab oder Bitbucket)."
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:22
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:22
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Repository")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:30
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:30
 msgid "Give the repository name (GitHub, GitLab and Bitbucket only)."
 msgstr ""
 "Geben Sie den Namen des Repository an (nur GitHub, GitLab oder Bitbucket)."
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:25
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:25
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "URL to repository")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:33
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:33
 msgid "Give the full URL to the repository (generic git and svn only)."
 msgstr ""
 "Geben Sie den vollen URL zum Repository an (nur generisches git und svn)."
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:28
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:28
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Commit/tag/branch")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:36
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:36
 msgid ""
 "If you want a certain commit, tag or branch for installation, define that "
 "here."
@@ -106,9 +106,9 @@ msgstr ""
 "Wenn Sie einen bestimmten Commit, Tag oder Branch intallieren möchten, "
 "definieren Sie diesenhier"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:31
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:31
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Subdirectory")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:39
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:39
 msgid ""
 "If you want to install from a subdirectory of the repository, define that "
 "here."
@@ -116,9 +116,9 @@ msgstr ""
 "Wenn Sie aus einen bestimmten Unterordner des Repository intallieren "
 "möchten, definieren Sie diesenhier"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:35
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:35
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Personal access token (PAT)")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:42
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:42
 msgid ""
 "To install from a private repository, set your personal access token (PAT, "
 "GitHub and GitLab only)."
@@ -126,128 +126,128 @@ msgstr ""
 "Um von einem privaten Repository zu installieren, geben Sie Ihren "
 "persönlichen Zugangs-Token an (PAT, nur GitHub und GitLab)"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:38
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:38
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "User")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:45
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:45
 msgid ""
 "To install from a private repository, set the user name (Bitbucket only)."
 msgstr ""
 "Um von einem privaten Repository zu installieren, geben Sie Ihren "
 "Benutzernamen an (nur Bitbucket)"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:41
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.rkh:41
 #. i18n: ectx: (Loaded from Install from git/svn) <settings> <setting> (refers to element labelled "Password")
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:48
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:48
 msgid ""
 "To install from a private repository, set the password (Bitbucket only)."
 msgstr ""
 "Um von einem privaten Repository zu installieren, geben Sie Ihr Passwort an "
 "(nur Bitbucket)"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:27
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:27
 #. i18n: ectx: (Install from git/svn) <dialog label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:51
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:51
 msgid "Install from git/svn"
 msgstr "Installation via git/svn"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:29
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:29
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:54
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:54
 msgid "Package source"
 msgstr "Paketquelle"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:30
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:30
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:57
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:57
 msgid "git (generic)"
 msgstr "git (generisch)"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:31
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:31
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:60
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:60
 msgid "GitHub"
 msgstr "GitHub"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:32
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:32
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:63
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:63
 msgid "GitLab"
 msgstr ""
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:33
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:33
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:66
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:66
 msgid "Bitbucket"
 msgstr "Bitbucket"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:34
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:34
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <dropdown label="Package source"> <option label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:69
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:69
 msgid "subversion (generic)"
 msgstr "Subversion (generisch)"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:36
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:36
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:72
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:72
 msgid "Package reporitory"
 msgstr "Paketrepository"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:38
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:38
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Package reporitory"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:75
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:75
 msgid "Git user name"
 msgstr "Git-Benutzername"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:39
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:39
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Package reporitory"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:78
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:78
 msgid "Repository"
 msgstr "Repository"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:41
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:41
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Package reporitory"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:81
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:81
 msgid "URL to repository"
 msgstr "URL zum Repository"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:43
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:43
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:84
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:84
 msgid "Commit/tag/branch"
 msgstr "Commit/Tag/Branch"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:44
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:44
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:87
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:87
 msgid "Subdirectory"
 msgstr "Unterordner"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:45
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:45
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:90
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:90
 msgid "Private repository"
 msgstr "Privates Repository"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:46
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:46
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Private repository"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:93
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:93
 msgid "Personal access token (PAT)"
 msgstr "Persönlicher Zugangs-Token (PAT)"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:48
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:48
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Private repository"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:96
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:96
 msgid "User"
 msgstr "Benutzer"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:49
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/plugins/Installfromgit.xml:49
 #. i18n: ectx: (Install from git/svn) <dialog label="Install from git/svn"> <frame label="Private repository"> <input label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:99
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:99
 msgid "Password"
 msgstr "Passwort"
 
-#. i18n: file: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:50
+#. i18n: file: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/rk.gitInstall.pluginmap:50
 #. i18n: ectx: <hierarchy> <menu label="...">
-#: /media/crypt/daten/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:102
+#: /home/m/daten/R/rkward_plugins/git/rk.gitInstall/inst/rkward/po/rc.cpp:102
 msgid "Settings"
 msgstr "Einstellungen"

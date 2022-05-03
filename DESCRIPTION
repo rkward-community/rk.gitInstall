@@ -1,7 +1,7 @@
 Package: rk.gitInstall
 Type: Package
 Title: RKWard GUI to install R packges directly from git or subversion repositories
-Version: 0.01-2
+Version: 0.2-1
 Date: 2022-05-03
 Author: Meik Michalke
 Maintainer: Meik Michalke <meik.michalke@hhu.de>
