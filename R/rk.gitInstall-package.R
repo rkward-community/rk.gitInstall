@@ -4,8 +4,8 @@
 #' \tabular{ll}{
 #' Package: \tab rk.gitInstall\cr
 #' Type: \tab Package\cr
-#' Version: \tab 0.01-1\cr
-#' Date: \tab 2018-11-02\cr
+#' Version: \tab 0.01-2\cr
+#' Date: \tab 2022-05-03\cr
 #' Depends: \tab rkward (>= 0.6.0)\cr
 #' Enhances: \tab rkward\cr
 #' Encoding: \tab UTF-8\cr

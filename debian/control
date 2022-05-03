@@ -2,15 +2,16 @@ Source: r-other-rkward-rk.gitinstall
 Section: gnu-r
 Priority: optional
 Maintainer: m.eik michalke <meik.michalke@hhu.de>
-Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 4.0.0), cdbs, rkward (>= 0.6.0)
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 4.2.0), cdbs, rkward (>= 0.6.0)
 Standards-Version: 3.9.3.1
 Homepage: https://rkward.kde.org
 
 Package: r-other-rkward-rk.gitinstall
 Architecture: all
 Section: gnu-r
-Depends: r-base-core (>= 4.0.0), r-api-4.0, rkward (>= 0.6.0)
-Description: GNU R package "RKWard GUI to install R packges directly from git or subversion repositories"
+Depends: r-base-core (>= 4.2.0), r-api-4.0, rkward (>= 0.6.0)
+Description: GNU R package "RKWard GUI to install R packges directly from git or
+ subversion repositories"
  .
  RKWard GUI to install R packges directly from git or subversion repositories
 Homepage: https://rkward.kde.org

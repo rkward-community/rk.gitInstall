@@ -19,8 +19,8 @@
     name="rk.gitInstall"
     shortinfo="RKWard GUI to install R packges directly from git or subversion repositories"
     longinfo="RKWard GUI to install R packges directly from git or subversion repositories"
-    version="0.01-1"
-    releasedate="2018-11-02"
+    version="0.01-2"
+    releasedate="2022-05-03"
     url="https://rkward.kde.org"
     license="GPL (&gt;= 3)"
   >

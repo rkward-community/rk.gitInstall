@@ -1,8 +1,8 @@
 ChangeLog for package rk.gitInstall
 
-changes in version 0.01-2 (2020-06-25)
-unreleased:
-  - this release is under development
+changes in version 0.01-2 (2022-05-03)
+fixed:
+  - screenshot URL and removed flattr-link in README.md
 
 changes in version 0.01-1 (2020-06-25)
 fixed:

@@ -1,6 +1,13 @@
 \name{NEWS}
 \title{News for Package 'rk.gitInstall'}
 \encoding{UTF-8}
+\section{Changes in rk.gitInstall version 0.01-2 (2022-05-03)}{
+  \subsection{fixed}{
+    \itemize{
+      \item screenshot URL and removed flattr-link in README.md
+    }
+  }
+}
 \section{Changes in rk.gitInstall version 0.01-1 (2020-06-25)}{
   \subsection{fixed}{
     \itemize{

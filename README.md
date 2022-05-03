@@ -27,9 +27,8 @@ usually no need to restart the application.
 To install it directly from GitHub, you can use `install_github()` from the [devtools](https://github.com/hadley/devtools) package:
 
 ```
-library(devtools)
-install_github("rkward-community/rk.gitInstall") # stable release
-install_github("rkward-community/rk.gitInstall", ref="develop") # development release
+devtools::install_github("rkward-community/rk.gitInstall") # stable release
+devtools::install_github("rkward-community/rk.gitInstall", ref="develop") # development release
 ```
 
 You can safely ignore warnings about the (unavailable) package "rkward", it was installed together with RKWard.
