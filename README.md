@@ -24,7 +24,7 @@ usually no need to restart the application.
 
 ### Installation via GitHub
 
-To install it directly from GitHub, you can use `install_github()` from the [devtools](https://github.com/hadley/devtools) package:
+To install it directly from GitHub, you can use `install_github()` from the [devtools](https://github.com/r-lib/devtools) package:
 
 ```
 devtools::install_github("rkward-community/rk.gitInstall") # stable release
