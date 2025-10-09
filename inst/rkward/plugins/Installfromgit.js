@@ -25,9 +25,10 @@ function calculate(is_preview){
 
   // the R code to be evaluated
   var frmPrvtrpstChecked = getValue("frm_Prvtrpst.checked");
-  echo("  install_" + packageSource + "(\n");
+  echo("  rk.with.progress({\n");
+  echo("    install_" + packageSource + "(\n");
   if(packageSource == "github" || packageSource == "gitlab" || packageSource == "bitbucket") {
-    echo("    repo=\"" + gitUser + "/" + gitRepo);  
+    echo("      repo=\"" + gitUser + "/" + gitRepo);  
     if(inpSbdrctry) {
       echo("/" + inpSbdrctry);  
     } else {}  
@@ -38,27 +39,28 @@ function calculate(is_preview){
     if(frmPrvtrpstChecked) {
       if(packageSource == "github" || packageSource == "gitlab") {
         if(inpPrsnlPAT) {
-          echo(",\n    auth_token=\"" + inpPrsnlPAT + "\"");  
+          echo(",\n      auth_token=\"" + inpPrsnlPAT + "\"");  
         } else {}  
       } else if(packageSource == "bitbucket") {
         if(inpUser) {
-            echo(",\n    auth_user=\"" + inpUser + "\"");  
+            echo(",\n      auth_user=\"" + inpUser + "\"");  
           } else {}  
           if(inpPassword) {
-            echo(",\n    password=\"" + inpPassword + "\"");  
+            echo(",\n      password=\"" + inpPassword + "\"");  
           } else {}  
       } else {}  
     } else {}  
   } else if(packageSource == "git" || packageSource == "svn") {
-    echo("    url=\"" + fullURL + "\"");  
+    echo("      url=\"" + fullURL + "\"");  
       if(inpCmmttgbr) {
-        echo(",\n    branch=\"" + inpCmmttgbr + "\"");  
+        echo(",\n      branch=\"" + inpCmmttgbr + "\"");  
       } else {}  
       if(inpSbdrctry) {
-        echo(",\n    subdir=\"" + inpSbdrctry + "\"");  
+        echo(",\n      subdir=\"" + inpSbdrctry + "\"");  
       } else {}  
   } else {}
-  echo("\n  )");
+  echo("\n    )");
+  echo("\n  })");
   echo("\n");
 }
 

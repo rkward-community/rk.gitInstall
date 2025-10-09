@@ -1,16 +1,20 @@
 <!DOCTYPE rkhelp >
 <document>
-  <!-- this code was generated using the rkwarddev package.
-    perhaps don't make changes here, but in the rkwarddev script instead!
-    
-    look for a file called: $SRC/inst/rkward/rkwarddev_rk.gitInstall_plugin_script.R -->
+  <!--
+    this code was generated using the rkwarddev package.
+  perhaps don't make changes here, but in the rkwarddev script instead!
+  
+  look for a file called: $SRC/inst/rkward/rkwarddev_rk.gitInstall_plugin_script.R
+  -->
   <summary>
   </summary>
   <usage>
   </usage>
-  <!-- <section id="sct_EDITORDE" title="EDIT OR DELETE ME">
-        EDIT OR DELETE ME
-      </section> -->
+  <!--
+    <section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+      EDIT OR DELETE ME
+    </section>
+  -->
   <settings>
     <setting id="packageSource">
       Set the location where the package resides that you want to install.
@@ -42,13 +46,15 @@
       To install from a private repository, set the password (Bitbucket only).
     </setting>
   </settings>
-  <!-- <related>
-        <ul>
-          <li>
-            <link href="rkward://rhelp/..." />
-          </li>
-        </ul>
-      </related> -->
+  <!--
+    <related>
+      <ul>
+        <li>
+          <link href="rkward://rhelp/..." />
+        </li>
+      </ul>
+    </related>
+  -->
   <technical>
   </technical>
 </document>
