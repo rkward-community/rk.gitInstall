@@ -29,7 +29,7 @@ aboutPlugin <- rk.XML.about(
 )
 
 plugin.dependencies <- rk.XML.dependencies(
-  dependencies=list(rkward.min="0.6.0"),
+  dependencies=list(rkward.min="0.8.1"),
   package=list(
     c(name="devtools")
   )
@@ -149,10 +149,11 @@ authFrameChecked <- rk.JS.vars(authFrame, modifiers="checked")
 
 JScalculate <- rk.paste.JS(
   authFrameChecked,
-  echo("  install_", packageSource, "(\n"),
+  echo("  rk.with.progress({\n"),
+  echo("    install_", packageSource, "(\n"),
   js(
     if(packageSource == "github" || packageSource == "gitlab" || packageSource == "bitbucket"){
-      echo("    repo=\"", gitUser, "/", gitRepo)
+      echo("      repo=\"", gitUser, "/", gitRepo)
       if(gitSubdir){
         echo("/", gitSubdir)
       } else {}
@@ -163,28 +164,29 @@ JScalculate <- rk.paste.JS(
       if(authFrameChecked){
         if(packageSource == "github" || packageSource == "gitlab"){
           if(authToken){
-            echo(",\n    auth_token=\"", authToken, "\"")
+            echo(",\n      auth_token=\"", authToken, "\"")
           } else {}
         } else if(packageSource == "bitbucket"){
           if(authUser){
-            echo(",\n    auth_user=\"", authUser, "\"")
+            echo(",\n      auth_user=\"", authUser, "\"")
           } else {}
           if(authPassword){
-            echo(",\n    password=\"", authPassword, "\"")
+            echo(",\n      password=\"", authPassword, "\"")
           } else {}
         } else {}
       } else {}
     } else if(packageSource == "git" || packageSource == "svn"){
-      echo("    url=\"", fullURL, "\"")
+      echo("      url=\"", fullURL, "\"")
       if(gitReference){
-        echo(",\n    branch=\"", gitReference, "\"")
+        echo(",\n      branch=\"", gitReference, "\"")
       } else {}
       if(gitSubdir){
-        echo(",\n    subdir=\"", gitSubdir, "\"")
+        echo(",\n      subdir=\"", gitSubdir, "\"")
       } else {}
     } else {}
   ),
-  echo("\n  )"),
+  echo("\n    )"),
+  echo("\n  })"),
   echo("\n")
 )
 

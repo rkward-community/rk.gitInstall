@@ -1,8 +1,8 @@
 ChangeLog for package rk.gitInstall
 
-changes in version 0.2-1 (2022-05-03)
-unreleased:
-  - this release is under development
+changes in version 0.2-1 (2025-10-09)
+added:
+  - show progress and allow cancelling during download / installation
 
 changes in version 0.01-2 (2022-05-03)
 fixed:
